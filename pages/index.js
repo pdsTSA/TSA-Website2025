@@ -1,13 +1,17 @@
 import styles from "./Home.module.css"
+import LogoNoBg from "@/assets/logo_nobg.svg";
 
 const SplashLogo = () => {
-  return <div className={styles.home_splash_logo}>
-    <h1>Hello</h1>
+  return <div className={styles.splash_logo_bar}>
+    <LogoNoBg className={styles.splash_logo}></LogoNoBg>
+    <div>
+      <button>Order now!</button>
+    </div>
   </div>
 }
 
 const SplashImage = () => {
-  return <div className={styles.home_splash}>
+  return <div className={styles.splash}>
     <SplashLogo></SplashLogo>
   </div>
 }
