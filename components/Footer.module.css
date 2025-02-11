@@ -1,0 +1,26 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: white;
+    padding: 25px;
+    background-color: rgba(16,96,122,100);
+    overflow: visible;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+.backToTop {
+    cursor: pointer;
+    color: white; /* Blue color */
+    margin-bottom: 10px;
+    transition: color 0.3s ease-in-out;
+  }
+
+.backToTop:hover {
+    text-decoration: underline;
+}
