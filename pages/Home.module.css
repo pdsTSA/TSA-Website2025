@@ -1,47 +1,14 @@
-.splash {
-    background-image: url("/home-background.jpg");
-    min-height: 67vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.splash_logo_bar {
-    background-color: rgb(16, 96, 122);
-    border-top: white 1px solid;
-    border-bottom: white 1px solid;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 10px;
-    flex-grow: 0;
-}
-
-
-
-.splash_logo_bar button {
-    font-weight: 400;
-    font-style: normal;
-    font-size: larger;
-    color: rgb(16, 96, 122);
-    font-kerning: none;
-    text-decoration: none;
-    border-radius: 16px;
-    padding: 10px 30px 10px 30px;
-    border: #b0bdff 2px solid;
-}
-
-.splash_logo {
-    transform: translateY(-50px);
-    width: 100%;
-    margin-bottom: -50px;
-}
-
-.splash h1 {
-    margin: 0;
-}
-
 .home {
     width: 100%;
     height: 100%;
+}
+
+.section_header {
+    background-color: #74a9bc;
+    padding: 5px 0 5px 0;
+}
+
+.section_header div {
+    border-top: white 10px solid;
+    border-bottom: white 10px solid;
 }
