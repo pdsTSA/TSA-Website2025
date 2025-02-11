@@ -1,14 +1,14 @@
 import Layout from '@/components/Layout';
 
-export const menu = () => {
+export const signup = () => {
   return (
     <Layout >
         <div>
-        <p>does this work menu page???</p>
+        <p>does this work signup page???</p>
         </div>
     </Layout>
   )
 }
 
 
-export default menu;
+export default signup;
