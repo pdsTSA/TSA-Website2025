@@ -2,12 +2,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em 2em;
+    padding: 0.5em 0 0.5em 0;
     top: 0;
     width: 100%;
     background-color: rgba(16,96,122,100);
     z-index: 1000;
-    
+}
+
+.navbar ul {
+    padding-right: 1em;
 }
 
 .menuToggle {
