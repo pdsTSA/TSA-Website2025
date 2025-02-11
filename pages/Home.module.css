@@ -1,0 +1,22 @@
+.home_splash {
+    background-image: url("/home-background.jpg");
+    min-height: 67vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home_splash_logo {
+    background-color: rgb(16, 96, 122);
+    border-top: white 1px solid;
+    border-bottom: white 1px solid;
+}
+
+.home_splash h1 {
+    margin: 0;
+}
+
+.home {
+    width: 100%;
+    height: 100%;
+}
