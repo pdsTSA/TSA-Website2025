@@ -8,6 +8,9 @@
     padding: 25px;
     background-color: rgba(16,96,122,100);
     overflow: visible;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 .footer p {
