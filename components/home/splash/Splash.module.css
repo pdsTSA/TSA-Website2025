@@ -17,8 +17,6 @@
     flex-grow: 0;
 }
 
-
-
 .splash_logo_bar button {
     font-weight: 400;
     font-style: normal;
@@ -32,7 +30,8 @@
 }
 
 .splash_logo {
-    transform: translateY(-50px);
+    position: relative;
+    bottom: 50px;
     width: 100%;
     margin-bottom: -50px;
 }

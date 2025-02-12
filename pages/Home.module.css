@@ -3,14 +3,6 @@
     height: 100%;
 }
 
-.bio {
-    width: 100%;
+.featured {
     display: flex;
-    justify-content: center;
-}
-
-.bio_content {
-    display: flex;
-    width: 50%;
-    justify-content: space-between;
 }
