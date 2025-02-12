@@ -1,0 +1,193 @@
+.left{
+    flex-direction: row-reverse;
+}
+
+.right{
+    flex-direction: row;
+}
+
+.clear{
+    clear: both;
+}
+
+.flowRoot{
+    display: flow-root;
+}
+
+.verticallyAlignText{
+    align-content: center;
+}
+
+.hero{
+    padding: 1.5rem 0 1.5rem 0;
+    color: rgb(15, 96, 122);
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    text-align: center;
+    background-color: rgb(16, 96, 122);
+}
+
+.heroTextWrapper{
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 1rem;
+}
+
+.title{
+    font-size: 5rem;
+}
+
+.subtitle{
+    font-size: 2.5rem;
+}
+
+.sectionProteinBases{
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(16, 96, 122);
+    padding-bottom: 10rem;
+}
+
+.articleProteinBases{
+    padding: 1.5rem;
+    width: 85%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.articleProteinBases:first-child{
+    margin-bottom: 5rem;
+}
+
+.articleTitle{
+    font-size: 3.5rem;
+    text-decoration: underline;
+    font-weight: bold;
+    text-decoration-thickness: 0.25rem;
+}
+
+.informationContainer{
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+}
+
+.informationContainer div p:first-child{
+    margin-bottom: 1em;
+}
+
+.informationContainer div p:first-child span{
+    margin-left: 1.5em;
+}
+
+.informationContainer div p:last-child{
+    font-style: italic;
+}
+
+.articleProteinBaseImageRight{
+    flex-shrink: 0;
+    border-radius: 50%;
+    position: relative;
+    left: 10rem;
+    border: 5px solid rgb(255, 255, 255);
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.articleProteinBaseImageLeft{
+    flex-shrink: 0;
+    border-radius: 50%;
+    position: relative;
+    right: 10rem;
+    border: 5px solid rgb(255, 255, 255);
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.articleProteinBases ul, .articleToppingSnacks ul{
+    font-size: 2.5rem;
+    list-style-type: none;
+}
+
+.baseItem:first-child { 
+    margin-top: 2rem;  
+}
+
+.baseItem, .toppingItem {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+    padding: 5px 0; 
+    margin-bottom: 2rem;
+}
+
+.sectionToppingSnacks{
+    background-color: rgb(16, 96, 122);
+}
+
+.articleToppingSnacks{
+    display: flex;
+}
+
+.toppingSnacksLeft{
+    margin-left: 5rem;
+}
+
+.toppingSnacksRight{
+    margin-right: 5rem;
+}
+
+.articleToppingSnacksTextContainer{
+    min-width: 50%;
+    padding: 1rem 1rem 0 1rem;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.articleToppingSnacksImageContainer{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.articleToppingSnacksImage{
+    position: relative;
+    flex-shrink: 0;
+    border-radius: 50%;
+    border: 5px solid rgb(255, 255, 255);
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.articleToppingSnacksImage:first-child, .articleToppingSnacksImage:last-child{
+    right: 7rem;
+}
+
+.articleToppingSnacksImage:nth-child(2){
+    left: 5rem;
+}
+
+.articleToppingSnacks:first-child{
+    margin-bottom: 5rem;
+}
+
+.snackItem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.articleToppingSnacksTextContainer div:first-child{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.articleToppingSnacksTextContainer div:last-child{
+    margin-top: 3rem;
+}
