@@ -1,7 +1,7 @@
 import styles from "./Navbar.module.css";
 import { useState } from "react";
 import Link from "next/link";
-import Logo from "@/assets/logo.svg";
+import Logo from "@/assets/logo-nobg.svg";
 import { Squash as Hamburger } from "hamburger-react";
 
 
