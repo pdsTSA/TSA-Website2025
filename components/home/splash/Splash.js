@@ -1,5 +1,5 @@
 import styles from "./Splash.module.css";
-import LogoNoBg from "@/assets/logo_nobg.svg";
+import LogoNoBg from "@/assets/logo-nobg.svg";
 
 const SplashLogo = () => {
     return <div className={styles.splash_logo_bar}>
