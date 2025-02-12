@@ -1,0 +1,26 @@
+.section_header {
+    background-color: #74a9bc;
+    padding: 3px 0 3px 0;
+}
+
+.section_border {
+    border-top: white 15px solid;
+    border-bottom: white 15px solid;
+}
+
+.section_title {
+    display: flex;
+    padding: 10px;
+}
+
+.section_title h1 {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: xxx-large;
+    flex: 4;
+}
+
+.section_title div {
+    flex: 1;
+}
