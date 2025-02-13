@@ -1,0 +1,81 @@
+.why {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.why_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 60%;
+}
+
+.why_content h1 {
+    font-size: 5em;
+    color: #10607a;
+    margin-bottom: auto;
+    position: relative;
+    right: 50px;
+}
+
+.why_content h2 {
+    margin-left: 2%;
+    color: #729d82;
+}
+
+.why_card {
+    border-radius: 16px;
+    width: 100%;
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.why_card_content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    flex: 7;
+}
+
+.why_card_letter {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why_card_letter h1 {
+    font-family: "Brixton Sans", sans-serif;
+    font-size: 15em;
+    position: relative;
+    right: 110px;
+    color: #003c5a;
+    margin: 0 -30px -20px 0;
+    padding: 0;
+}
+
+.why_card_content h1 {
+    font-size: 4em;
+    margin: 0;
+    color: white;
+}
+
+.why_card_content p {
+    font-size: 1.75em;
+    margin: 0;
+    color: white;
+    max-width: 75%;
+}
+
+@font-face {
+    font-family: "Brixton Sans";
+    font-style: normal;
+    font-weight: 400;
+    src: url("/brixton-sans-tc-regular.otf");
+}

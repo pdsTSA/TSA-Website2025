@@ -1,0 +1,38 @@
+.featured {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.featured_content {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.featured_column {
+    flex: 1;
+    color: white;
+    font-weight: lighter;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.featured_column h1 {
+    color: white;
+    font-size: 4em;
+    margin: auto;
+}
+
+.featured_column p {
+    color: white;
+    font-size: larger;
+}
+
+.featured_image {
+    border: 2px white solid;
+    padding: 15px;
+    background-color: rgb(16, 96, 122);
+}
