@@ -8,7 +8,7 @@ export const index = () => {
       <div className = {styles.container}>
         <div className = {styles.hero}>
           <h1 className = {styles.title}>SustainaBites <br /> Rewards Club</h1>
-          <p className = {styles.subtitleOne}>One Bit Closer to a Greener Tomorrow</p>
+          <p className = {styles.subtitleOne}>One Bite Closer to a Greener Tomorrow</p>
           <p className = {styles.subtitle}>
             Earn rewards while supporting sustainability.
             Join the SustainaBites Rewards Club and get 
@@ -58,8 +58,6 @@ export const index = () => {
             </p>
         </div>
       </div>  
-
-      <button className = {styles.button}>Join Now!</button>
 
       <div className = {styles.rSection}>
         <h1>Redeeming Rewards</h1>
