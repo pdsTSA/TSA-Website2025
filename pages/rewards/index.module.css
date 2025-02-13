@@ -38,7 +38,13 @@
     padding: 0;
     width: 100%;
     font-weight: bold;
+    flex-wrap: wrap;
+}
 
+@media (max-width: 600px) {
+    .subtitle {
+        padding-right: 4vh;
+    }
 }
 
 .subtitleOne {
@@ -59,7 +65,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    gap: 20vh;
+    gap: 15vh;
 }
 
 .reward {
@@ -68,6 +74,19 @@
     flex: 1;
     max-width: 250px;
 
+}
+
+@media (max-width: 768px) {
+    .rewards {
+        flex-direction: column;
+        align-items: center;
+        gap: 3vh;
+    }
+
+    .reward {
+        max-width: 90%;
+        text-align: center;
+    }
 }
 
 .num {
@@ -119,39 +138,63 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.r:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(16, 96, 122, 0.6);
+}
+
 .r {
-    background: white;
+    background: transparent;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid #005f73;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .r h3 {
     font-size: 1.2rem;
     color: #005f73;
+    margin: 0 auto;
 }
 
 .r p {
     font-size: 1rem;
     color: #005f73;
+    padding-bottom: 15px;
+}
+
+.medal {
+    height: auto;
+    margin: 0 auto;
+}
+
+@media (max-width: 690px) {
+    .medal {
+        margin: 0 auto;
+    }
 }
 
 .logo {
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin-left: 30px;
-    padding: 0;
-    flex-shrink: 0;
-    flex: 0;
-    align-self: flex-end;
+    top: -9%;
+    right: -40%;
     position: absolute;
-    margin-right: -35em;
-    margin-top: -8em;
-    z-index: 0;
+    z-index: 1;
+    object-fit: contain;
+    
+    
+}
 
+@media (max-width: 768px) {
+    .logo {
+        width: 80%;
+    }
 }
 
 
