@@ -49,6 +49,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: -30px;
 }
 
 .why_card_letter h1 {
@@ -79,4 +80,49 @@
     font-style: normal;
     font-weight: 400;
     src: url("/brixton-sans-tc-regular.otf");
+}
+
+@media (max-width: 828px) {
+    .why_content {
+        width: 100%;
+    }
+
+    .why_content h1 {
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .why_content h2 {
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .why_card {
+        width: 100%;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .why_card_letter h1 {
+        position: static;
+        font-size: 12em;
+    }
+
+    .why_card_content h1 {
+        text-align: right;
+        width: 100%;
+        font-size: 3em;
+        position: relative;
+        margin: -20px auto auto;
+
+    }
+
+    .why_card_content p {
+        margin: auto;
+        padding-bottom: 20px;
+        font-size: 1.25em;
+        text-align: right;
+    }
 }

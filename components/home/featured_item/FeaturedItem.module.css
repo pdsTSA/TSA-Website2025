@@ -6,8 +6,9 @@
 
 .featured_content {
     display: flex;
-    width: 60%;
+    width: 70%;
     justify-content: space-between;
+    align-content: center;
     gap: 50px;
 }
 
@@ -18,6 +19,7 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
+    justify-content: center;
 }
 
 .featured_column h1 {
@@ -35,4 +37,19 @@
     border: 2px white solid;
     padding: 15px;
     background-color: rgb(16, 96, 122);
+    margin: auto;
+}
+
+@media (max-width: 828px) {
+    .featured_content {
+        flex-direction: column;
+    }
+
+    .featured_column p {
+        text-align: center;
+    }
+
+    .featured_column h1 {
+        text-align: center;
+    }
 }

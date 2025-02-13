@@ -95,11 +95,12 @@
         z-index: 9999;
         margin-top: 70px;
         position: fixed;
+        max-width: 100vw;
     }
 
     .navLinks li {
         text-align: center;
-        margin: 0.5rem 0;
+        margin: 0;
         list-style-type: none;
     }
 

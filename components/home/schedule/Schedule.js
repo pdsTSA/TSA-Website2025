@@ -14,12 +14,17 @@ const Schedule = () => {
     const rightCard = useRef();
     const parent = useRef();
 
+    if (typeof window !== "undefined" && window.innerWidth <= 828) {
+        console.log("hello")
+    }
+    const rightDelay = (typeof window !== "undefined" && window.innerWidth <= 828) ? 0 : 0.5
+
     useGSAP(() => {
         gsap.from(leftCard.current, {
             y: 100,
             opacity: 0,
             scrollTrigger: {
-                trigger: parent.current,
+                trigger: leftCard.current,
                 start: "top center"
             }
         })
@@ -27,9 +32,9 @@ const Schedule = () => {
         gsap.from(rightCard.current, {
             y: 100,
             opacity: 0,
-            delay: 0.5,
+            delay: rightDelay,
             scrollTrigger: {
-                trigger: parent.current,
+                trigger: rightCard.current,
                 start: "top center"
             }
         })
