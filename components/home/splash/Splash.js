@@ -11,7 +11,7 @@ const SplashLogo = () => {
 }
 
 const SplashImage = () => {
-    return <div className={styles.splash}>
+    return <div className={`${styles.splash} ${styles.splash_tint}`}>
         <SplashLogo></SplashLogo>
     </div>
 }
