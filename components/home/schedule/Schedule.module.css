@@ -32,3 +32,24 @@
 .schedule_column + .schedule_column {
     border-left: 1px solid white;
 }
+
+@media (max-width: 828px) {
+    .schedule_content {
+        flex-direction: column;
+    }
+    .schedule_column + .schedule_column {
+        border: none;
+        border-top: 1px solid white;
+        padding-top: 20px;
+    }
+
+    .schedule_column h1 {
+        text-align: center;
+        font-size: 4.5em;
+    }
+
+    .schedule_column p {
+        text-align: center;
+        font-size: large;
+    }
+}

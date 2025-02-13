@@ -13,6 +13,10 @@ const font = Londrina_Solid({
 const FeaturedItem = () => {
     const content = useRef();
 
+    if (typeof window !== "undefined") {
+        console.log(window.innerWidth, window.innerHeight)
+    }
+
     useGSAP(() =>{
         gsap.from(content.current, {
             y: 100,
@@ -29,8 +33,9 @@ const FeaturedItem = () => {
             <div className={styles.featured_column}>
                 <Image src={"/featured-item.jpg"}
                        alt={"The featured item of the day"}
-                       width={600} height={400}
+                       width={1000} height={1000}
                        className={styles.featured_image}
+                       style={{ width: '80%', height: 'auto' }}
                 />
             </div>
             <div className={styles.featured_column}>

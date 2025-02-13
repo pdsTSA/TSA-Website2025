@@ -35,6 +35,15 @@
     border-radius: 16px;
     padding: 10px 30px 10px 30px;
     border: #b0bdff 2px solid;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.splash_logo_bar button:hover {
+    cursor: pointer;
+    background-color: #003c5a;
+    color: white;
+    border: #10607a 2px solid;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
 
 .splash_logo {

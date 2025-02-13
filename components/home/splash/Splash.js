@@ -4,6 +4,7 @@ import gsap from "gsap";
 import {useGSAP} from "@gsap/react";
 import {useRef} from "react";
 import {Londrina_Solid} from "next/font/google";
+import Link from "next/link";
 
 const font = Londrina_Solid({
     subsets: ["latin"],
@@ -39,7 +40,9 @@ const SplashLogo = () => {
     return <div className={styles.splash_logo_bar} ref={bar}>
         <LogoNoBg className={styles.splash_logo} ref={logo}></LogoNoBg>
         <div>
-            <button ref={button} className={font.className}>Order now!</button>
+            <Link href={"/menu"}>
+                <button ref={button} className={font.className}>Order now!</button>
+            </Link>
         </div>
     </div>
 }
