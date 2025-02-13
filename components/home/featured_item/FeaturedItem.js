@@ -1,6 +1,12 @@
 import styles from "./FeaturedItem.module.css";
 import Image from "next/image";
 import ColorBlock from "@/components/home/color_block/ColorBlock";
+import {Londrina_Solid} from "next/font/google";
+
+const font = Londrina_Solid({
+    subsets: ["latin"],
+    weight: "400",
+})
 
 const FeaturedItem = () => {
     return <div className={styles.featured}>
@@ -13,7 +19,7 @@ const FeaturedItem = () => {
                 />
             </div>
             <div className={styles.featured_column}>
-                <h1>Featured Item</h1>
+                <h1 className={font.className}>Featured Item</h1>
                 <p>This week, we’re spotlighting our <b>Mushroom
                     Sisig Bowl</b>, a bold and savory take on a Filipino
                     classic. Made with crispy oyster mushrooms,
