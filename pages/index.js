@@ -1,6 +1,5 @@
 import styles from "./Home.module.css"
 import SplashImage from "@/components/home/splash/Splash";
-import SectionHeader from "@/components/home/section_header/SectionHeader";
 import Image from "next/image";
 import ColorBlock from "@/components/home/color_block/ColorBlock";
 import { Poetsen_One } from 'next/font/google'
@@ -17,6 +16,9 @@ const Home = () => {
     <SplashImage></SplashImage>
     <WhyAdobo />
     <br/>
+    <ColorBlock color={"#74a9bc"}>
+      <h1>Schedule</h1>
+    </ColorBlock>
     <ColorBlock color={"#10607a"}>
       <br/>
       <FeaturedItem />

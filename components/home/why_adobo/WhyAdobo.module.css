@@ -39,7 +39,7 @@
 .why_card_content {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
+    padding-top: 30px;
     flex: 7;
 }
 
@@ -47,15 +47,16 @@
     flex: 1;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .why_card_letter h1 {
     font-family: "Brixton Sans", sans-serif;
-    font-size: 16em;
+    font-size: 15em;
     position: relative;
     right: 110px;
     color: #003c5a;
-    margin: 0 -30px 0 0;
+    margin: 0 -30px -20px 0;
     padding: 0;
 }
 
