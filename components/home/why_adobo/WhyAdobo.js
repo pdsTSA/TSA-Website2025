@@ -1,6 +1,14 @@
+'use client';
+
 import {Londrina_Solid} from "next/font/google";
 import styles from "./WhyAdobo.module.css";
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useRef } from 'react';
 
+gsap.registerPlugin(useGSAP)
+gsap.registerPlugin(ScrollTrigger)
 
 const font = Londrina_Solid({
     subsets: ["latin"],
@@ -8,7 +16,20 @@ const font = Londrina_Solid({
 })
 
 const WhyCard = ({color, children}) => {
-    return <div style={{backgroundColor: color}} className={styles.why_card}>
+    const container = useRef();
+
+    useGSAP(() => {
+        gsap.from(container.current, {
+            x: -100,
+            delay: 0.5,
+            opacity: 0,
+            scrollTrigger: {
+                trigger: container.current,
+            }
+        })
+    }, {scope: container})
+
+    return <div style={{backgroundColor: color}} className={styles.why_card} ref={container}>
         {children}
     </div>
 }
