@@ -1,7 +1,9 @@
 import styles from "./FeaturedItem.module.css";
 import Image from "next/image";
-import ColorBlock from "@/components/home/color_block/ColorBlock";
+import gsap from "gsap";
 import {Londrina_Solid} from "next/font/google";
+import {useRef} from "react";
+import {useGSAP} from "@gsap/react";
 
 const font = Londrina_Solid({
     subsets: ["latin"],
@@ -9,8 +11,21 @@ const font = Londrina_Solid({
 })
 
 const FeaturedItem = () => {
+    const content = useRef();
+
+    useGSAP(() =>{
+        gsap.from(content.current, {
+            y: 100,
+            opacity: 0,
+            scrollTrigger: {
+                trigger: content.current,
+                start: "top 60%"
+            }
+        })
+    }, {scope: content})
+
     return <div className={styles.featured}>
-        <div className={styles.featured_content}>
+        <div className={styles.featured_content} ref={content}>
             <div className={styles.featured_column}>
                 <Image src={"/featured-item.jpg"}
                        alt={"The featured item of the day"}
