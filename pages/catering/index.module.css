@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+.londrina {
+  font-family: 'Londrina Solid', sans-serif;
+}
+
+.menuContainer {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    font-size: 5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #005f73;
+}
+
+.titletwo {
+    font-size: 7rem;
+    font-weight: lighter;
+    color: #729D82;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10vh;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.sectionF {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    position: relative;
+    width: 100%;
+    flex-direction: row-reverse;
+}
+
+.tcontainer {
+    width: 50%;
+    padding: 10px 20px;
+    position: relative;
+    text-align: left;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.tcontainerTwo {
+    width: 50%;
+    padding: 10px 20px;
+    position: relative;
+    text-align: right;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+.tcontainerTwo h2 {
+    font-size: 2rem;
+    color: #10607A;
+    border-bottom: 2px solid #74A9BC;
+    padding-bottom: 5px;
+    display: inline-block;
+    text-align: right;
+
+
+}
+
+.tcontainerTwo ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.tcontainerTwo li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.tcontainerTwo span {
+    font-weight: bold;
+    color:#005f73;
+    text-align: right;
+
+}
+
+.tcontainer h2 {
+    font-size: 2rem;
+    color: #10607A;
+    border-bottom: 2px solid #74A9BC;
+    padding-bottom: 5px;
+    display: inline-block;
+
+}
+
+.tcontainer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tcontainer li {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.tcontainer span {
+    font-weight: bold;
+    color:#005f73;
+}
+
+.disclaimer {
+    font-size: 1.5vw;
+    color:#005f73;
+    margin-top: 10%;
+}
+
+.One {
+    max-width: 60vh;
+    position: absolute;
+    z-index: 1;
+    top: -7%;
+    left: 60%;
+    transform: rotate(9deg);
+}
+
+.Two {
+    max-width: 50vh;
+    position: absolute;
+    z-index: 1;
+    top: -35%;
+    left: -66%;
+    transform: rotate(7deg);
+}
+
+.Three {
+    max-width: 50vh;
+    position: absolute;
+    z-index: 1;
+    top: -36%;
+    left: 70%;
+}
+
+.Four {
+    max-width: 50vh;
+    position: absolute;
+    z-index: 1;
+    bottom: -55%;
+    right: 18%;
+}
+
+.Lumpia {
+    z-index: 2;
+    max-width: 50vh;
+    position: absolute;
+    border-radius: 15px;
+    left: 64%;
+    top: -45%;
+}
+
+.Jackfruit {
+    z-index: 2;
+    position: absolute;
+    border-radius: 15px;
+    max-width: 60vh;
+    top: -78%;
+    left: -92%;
+}
+
+.Halo {
+    z-index: 2;
+    position: absolute;
+    width: 100%;
+    border-radius: 15px;
+    bottom: -51%;
+    right: 10%;
+    max-width: 50vh;
+
+}
+
+@media (max-width: 1024px) {
+    .Two {
+        left: -56%;
+    }
+
+    .Three {
+        max-width: 50vh;
+        position: absolute;
+        z-index: 1;
+        top: -46%;
+        left: 67%;
+    }
+
+    .Four {
+        right: 20%;
+    }
+}
+
+@media (max-width: 768px){
+    .Jackfruit {
+        top: -58%;
+        left: -112%;
+    }
+
+    .Two {
+        top: -27%;
+        left: -56%;
+    }
+
+    .Halo {
+        right: 5%;
+    }
+
+    .Four {
+        right: 15%;
+    }
+}
+
+@media (max-width: 426px) {
+    .One{
+        display: none;
+    }
+
+    .Two{
+        display: none;
+    }
+
+    .Three{
+        display: none;
+    }
+
+    .Four{
+        display: none;
+    }
+
+    .Lumpia{
+        display: none;
+    }
+
+    .Jackfruit{
+        display: none;
+    }
+
+    .Halo{
+        display: none;
+    }
+
+    .tcontainer {
+        width: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .tcontainer li span{
+        margin-left: 20px;
+    }
+
+    .tcontainerTwo li span{
+        margin-left: 20px;
+    }
+
+    .tcontainerTwo h2 {
+        text-align: center;
+    }
+
+
+    .tcontainerTwo {
+        width: auto;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .menuContainer {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .disclaimer {
+        margin-top: 0;
+        font-size: 4vw;
+    }
+
+
+}
