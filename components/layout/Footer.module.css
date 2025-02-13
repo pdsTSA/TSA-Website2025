@@ -5,10 +5,8 @@
     text-align: center;
     letter-spacing: 0.5px;
     color: white;
-    padding: 25px;
     background-color: rgba(16,96,122,100);
-    overflow: visible;
-    width: 100%;
+    padding-top: 50px;
 }
 
 .footer p {
