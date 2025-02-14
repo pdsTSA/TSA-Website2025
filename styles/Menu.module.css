@@ -43,7 +43,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #10607A;
+    background-color: hsl(0, 0%, 100%);
     padding-bottom: 10rem;
 }
 
@@ -132,7 +132,7 @@
 }
 
 .sectionToppingSnacks {
-    background-color: #10607A;
+    background-color: #ffffff;
     padding-bottom: 1rem;
 }
 
@@ -206,7 +206,7 @@
 }
 
 .articleToppingSnacksTextContainer div {
-    margin-bottom: 3rem;
+    margin-bottom: 6rem;
 }
 
 .articleToppingSnacksTextContainer li:last-child {
