@@ -70,9 +70,9 @@
 
 .why_card_content p {
     font-size: 1.75em;
-    margin: 0;
     color: white;
     max-width: 75%;
+    margin: 0 0 15px;
 }
 
 @font-face {

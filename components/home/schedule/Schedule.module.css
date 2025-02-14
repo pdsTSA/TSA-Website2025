@@ -9,13 +9,14 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 70%;
+    width: 80%;
 }
 
 .schedule_column {
     flex: 1;
     text-align: center;
-    margin: 20px;
+    margin: auto;
+    padding: 20px;
 }
 
 .schedule_column h1 {
