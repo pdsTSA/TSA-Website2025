@@ -25,7 +25,7 @@ const Schedule = () => {
             opacity: 0,
             scrollTrigger: {
                 trigger: leftCard.current,
-                start: "top center"
+                start: "top 60%"
             }
         })
 
@@ -35,7 +35,7 @@ const Schedule = () => {
             delay: rightDelay,
             scrollTrigger: {
                 trigger: rightCard.current,
-                start: "top center"
+                start: "top 60%"
             }
         })
     }, {scope: parent})
@@ -53,11 +53,11 @@ const Schedule = () => {
             </div>
             <div className={styles.schedule_column} ref={rightCard}>
                 <h1 className={font.className}>Lunch</h1>
-                <p>SUN — THURS …12:00 am — 7:00 pm
-                    <br/>FRI & SAT  … 12:00 am — 8:00 pm</p>
+                <p>SUN — THURS … 10:00 am — 2:00 pm
+                    <br/>FRI & SAT  … 10:00 am — 3:00 pm</p>
                 <h1 className={font.className}>Dinner</h1>
-                <p>SUN — THURS …12:00 am — 7:00 pm
-                    <br/>FRI & SAT  … 12:00 am — 8:00 pm</p>
+                <p>SUN — THURS … 5:00 pm — 10:00 pm
+                    <br/>FRI & SAT  … 6:00 pm — 11:00 pm</p>
             </div>
         </div>
     </div>

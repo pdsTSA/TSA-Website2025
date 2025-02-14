@@ -19,7 +19,7 @@ const WhyCard = ({color, children}) => {
             opacity: 0,
             scrollTrigger: {
                 trigger: container.current,
-                start: "top center"
+                start: "top 60%"
             }
         })
     }, {scope: container})
@@ -53,8 +53,7 @@ const WhyAdobo = () => {
                     </div>
                     <div className={styles.why_card_content}>
                         <h1 className={font.className}>Conscious Dining</h1>
-                        <p>Our eco-friendly preparation process as well as
-                            operation minimize  waste with compostable
+                        <p>Our eco-friendly preparation process minimizes waste with compostable
                             packaging, reduced food waste, and responsible
                             sourcing.</p>
                     </div>
@@ -66,7 +65,7 @@ const WhyAdobo = () => {
                     <div className={styles.why_card_content}>
                         <h1 className={font.className}>Organic Focus</h1>
                         <p>We source organic, locally grown produce and
-                            non-GMO plant-based proteins to ensure the
+                            non-GMO, plant-based proteins to ensure the
                             freshest flavors. Our ingredients are free from
                             artificial additives, letting the bold, natural taste of
                             Filipino cuisine shine.</p>

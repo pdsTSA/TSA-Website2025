@@ -44,7 +44,7 @@ const Signup = () => {
     }
 
     const movePage = () => {
-        router.push("/");
+        router.push("/points");
     }
 
     return (
@@ -52,7 +52,7 @@ const Signup = () => {
             <div className={style.signup}>
                 <div className={style.signup_content}>
                     <div className={style.signup_item}>
-                        <Logo/>
+                        <Logo className={style.logo}/>
                     </div>
                     <h1 className={font.className}>Sign Up For Adobo Agogo</h1>
                     <div className={style.signup_item}>
