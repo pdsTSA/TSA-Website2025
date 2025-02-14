@@ -6,11 +6,11 @@ export const index = () => {
         <div className = {styles.container}>
           <h1 className = {styles.title}>Reference Page</h1>
           <div className = {styles.b}>
-          <button className = {styles.button}><a href = "/signup">
+          <button className = {styles.button}><a href = "/planOfWork.pdf">
             Plan of Work Log
             </a>
           </button>
-          <button className = {styles.button}><a href = "/signup">
+          <button className = {styles.button}><a href = "/studentCopyright.pdf">
             Student Copyright Checklist
             </a>
           </button>
