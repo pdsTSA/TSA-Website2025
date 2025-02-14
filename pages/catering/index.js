@@ -1,4 +1,3 @@
-import Layout from '@/components/Layout';
 import styles from './index.module.css';
 import Halo from "@/assets/halohalo.svg";
 import Lumpia from "@/assets/lumpia.svg";

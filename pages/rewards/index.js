@@ -1,4 +1,3 @@
-import Layout from '@/components/Layout';
 import styles from  './index.module.css';
 import Logo from "@/assets/Rewards Page Blue Sun.svg";
 import Medal from "@/assets/Rewards Page Metal Image.svg";
