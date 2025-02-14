@@ -10,6 +10,7 @@ export const index = () => {
             <p className={styles.subtitle}>BUILD-YOUR-OWN-BOWL</p>
           </div>
         </section>
+
         <section className={styles.sectionProteinBases}>
           <article className={styles.articleProteinBases}>
             <p className={styles.articleTitle}>Protein Choices</p>
@@ -34,8 +35,7 @@ export const index = () => {
             <div className={`${styles.informationContainer} ${styles.right}`}>
               <div>
                 <p>Jackfruit Adobo <span>$5.49</span></p>
-                <p>Sweet and smoky tofu, marinated in pineapple
-                juice, soy sauce, and annatto, then pan-fried.</p>
+                <p>Langka (Young Unripe Jackfruit) braised in soy sauce, vinegar, garlic, and bay leaves.</p>
               </div>
               <Image className={styles.articleProteinBaseImageRight} src="/MenuImages/JackfruitAdobo.jpg" width={336} height={192} />
             </div>
@@ -43,8 +43,8 @@ export const index = () => {
             <div className={`${styles.informationContainer} ${styles.left}`}>
               <div>
                 <p>Eggplant Bisteak <span>$5.29</span></p>
-                <p>Sweet and smoky tofu, marinated in pineapple
-                juice, soy sauce, and annatto, then pan-fried.</p>
+                <p>Eggplant simmered in soy-calamansi sauce with
+                caramelized onions.</p>
               </div>
               <Image className={styles.articleProteinBaseImageLeft} src="/MenuImages/EggplantBistek.jpg" width={533} height={800} />
             </div>
@@ -52,13 +52,14 @@ export const index = () => {
             <div className={`${styles.informationContainer} ${styles.right}`}>
               <div>
                 <p>Chickpea Kaldereta <span>$4.59</span></p>
-                <p>Sweet and smoky tofu, marinated in pineapple
-                juice, soy sauce, and annatto, then pan-fried.</p>
+                <p>A hearty and flavorful tomato stew with chickpeas, potatoes, and bell peppers.</p>
               </div>
               <Image className={styles.articleProteinBaseImageRight} src="/MenuImages/ChickpeaKaldereta.png" width={800} height={800} />
             </div>
           </article>
+
           <br />
+
           <article className={styles.articleProteinBases}>
             <p className={styles.articleTitle} >Bases</p>
             <ul>
@@ -70,6 +71,7 @@ export const index = () => {
             </ul>
           </article>
         </section>
+
         <section className={styles.sectionToppingSnacks}>
           <article className={styles.articleToppingSnacks}>
             <div className={`${styles.articleToppingSnacksTextContainer} ${styles.toppingSnacksLeft}`}>
@@ -104,7 +106,7 @@ export const index = () => {
                   <li>Shaved ice with coconut jelly, sweetbeans, jackfruit, and ube, topped with coconut milk</li>
                 </div>
                 <div>
-                  <li className={styles.snackItem}><span>Cassva Cake</span> <span>$5.99</span></li>
+                  <li className={styles.snackItem}><span>Cassava Cake</span> <span>$5.99</span></li>
                   <li>Sweet and chewy cassava with coconut milk and a caramelized top </li>
                 </div>
                 <div>
@@ -112,6 +114,32 @@ export const index = () => {
                   <li>Sticky rice cake with brown sugar and coconut</li>
                 </div>
               </ul>
+            </div>
+          </article>
+
+          <article className={styles.articleToppingSnacks}>
+            <div className={`${styles.articleToppingSnacksTextContainer} ${styles.toppingSnacksLeft} ${styles.articleDrinksTextContainer}`}>
+              <p className={styles.articleTitle}>Drinks</p>
+              <ul>
+                <div>
+                  <li className={styles.snackItem}><span>Manilla Milkshake</span> <span>$7.99</span></li>
+                  <li>Ice cream, milk, and vanilla beans straight from the Phillipines</li>
+                </div>
+                <div>
+                  <li className={styles.snackItem}><span>Melon Juice</span> <span>$5.99</span></li>
+                  <li>Melon Juice Water, cane sugar, and shredded ripe cantaloupe flesh topped with cream and ice</li>
+                </div>
+                <div>
+                  <li className={styles.snackItem}><span>Calamansi Juice</span> <span>$5.49</span></li>
+                  <li>Filipino-style lemonade made with calamansi, sugar, and water</li>
+                </div>
+                <li className={styles.snackItem}><span>Fountain Drink</span> <span>$5.49</span></li>
+              </ul>
+            </div>
+            <div className={styles.articleToppingSnacksImageContainer}>
+              <Image className={styles.articleToppingSnacksImage} src="/MenuImages/ManillaMilkshake.png" width={554} height={554} />
+              <Image className={styles.articleToppingSnacksImage} src="/MenuImages/MelonJuice.png" width={800} height={800} />
+              <Image className={styles.articleToppingSnacksImage} src="/MenuImages/CalamansiJuice.png" width={640} height={800} />
             </div>
           </article>
         </section>

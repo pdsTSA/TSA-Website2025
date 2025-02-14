@@ -1,92 +1,91 @@
-.left{
+.left {
     flex-direction: row-reverse;
 }
 
-.right{
+.right {
     flex-direction: row;
 }
 
-.clear{
-    clear: both;
-}
 
-.flowRoot{
-    display: flow-root;
-}
-
-.verticallyAlignText{
+.verticallyAlignText {
     align-content: center;
 }
 
-.hero{
+.hero {
     padding: 1.5rem 0 1.5rem 0;
     color: rgb(15, 96, 122);
-    border-top: 5px solid white;
+    border-top: 2px solid white;
     border-bottom: 5px solid white;
     text-align: center;
-    background-color: rgb(16, 96, 122);
+    background-color: rgb(255, 255, 255);
 }
 
-.heroTextWrapper{
+.heroTextWrapper {
     width: 100%;
     min-height: 50px;
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     padding-bottom: 1rem;
 }
 
-.title{
+.title {
     font-size: 5rem;
 }
 
-.subtitle{
+.subtitle {
     font-size: 2.5rem;
 }
 
-.sectionProteinBases{
+.sectionProteinBases {
     padding-top: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(16, 96, 122);
+    background-color: rgb(255, 255, 255);
     padding-bottom: 10rem;
 }
 
-.articleProteinBases{
+.articleProteinBases {
     padding: 1.5rem;
     width: 85%;
     border: 3px solid rgb(255, 255, 255);
 }
 
-.articleProteinBases:first-child{
+.articleProteinBases:first-child {
     margin-bottom: 5rem;
 }
 
-.articleTitle{
+.articleTitle {
+    margin-bottom: 1rem;
     font-size: 3.5rem;
     text-decoration: underline;
     font-weight: bold;
     text-decoration-thickness: 0.25rem;
 }
 
-.informationContainer{
+.informationContainer {
     display: flex;
     align-items: center;
     font-size: 2.5rem;
 }
 
-.informationContainer div p:first-child{
-    margin-bottom: 1em;
+.informationContainer div {
+    min-width: 15rem;
 }
 
-.informationContainer div p:first-child span{
+.informationContainer div p:first-child {
+    margin-left: 10rem;
+    margin-bottom: 1rem;
+}
+
+.informationContainer div p:first-child span {
     margin-left: 1.5em;
 }
 
-.informationContainer div p:last-child{
+.informationContainer div p:last-child {
     font-style: italic;
 }
 
-.articleProteinBaseImageRight{
+.articleProteinBaseImageRight {
     flex-shrink: 0;
     border-radius: 50%;
     position: relative;
@@ -97,7 +96,7 @@
     object-fit: cover;
 }
 
-.articleProteinBaseImageLeft{
+.articleProteinBaseImageLeft {
     flex-shrink: 0;
     border-radius: 50%;
     position: relative;
@@ -108,47 +107,52 @@
     object-fit: cover;
 }
 
-.articleProteinBases ul, .articleToppingSnacks ul{
+.articleProteinBases ul,
+.articleToppingSnacks ul {
     font-size: 2.5rem;
     list-style-type: none;
 }
 
-.baseItem:first-child { 
-    margin-top: 2rem;  
+.baseItem:first-child {
+    margin-top: 2rem;
 }
 
-.baseItem, .toppingItem {
+.baseItem,
+.toppingItem {
     display: flex;
     justify-content: space-between;
     width: 100%;
     list-style: none;
-    padding: 5px 0; 
+    padding: 5px 0;
     margin-bottom: 2rem;
 }
 
-.sectionToppingSnacks{
-    background-color: rgb(16, 96, 122);
+.sectionToppingSnacks {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 1rem;
 }
 
-.articleToppingSnacks{
+.articleToppingSnacks {
     display: flex;
 }
 
-.toppingSnacksLeft{
+.toppingSnacksLeft {
     margin-left: 5rem;
 }
 
-.toppingSnacksRight{
+.toppingSnacksRight {
     margin-right: 5rem;
 }
 
-.articleToppingSnacksTextContainer{
+.articleToppingSnacksTextContainer {
     min-width: 50%;
     padding: 1rem 1rem 0 1rem;
-    border: 3px solid rgb(255, 255, 255);
+    border: 3px solid #003c5a;
+    background-color: rgb(255, 255, 255);
+    color: rgb(16, 96, 122);
 }
 
-.articleToppingSnacksImageContainer{
+.articleToppingSnacksImageContainer {
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -156,7 +160,7 @@
     justify-content: center;
 }
 
-.articleToppingSnacksImage{
+.articleToppingSnacksImage {
     position: relative;
     flex-shrink: 0;
     border-radius: 50%;
@@ -166,28 +170,589 @@
     object-fit: cover;
 }
 
-.articleToppingSnacksImage:first-child, .articleToppingSnacksImage:last-child{
-    right: 7rem;
+.articleToppingSnacksImage:first-child,
+.articleToppingSnacksImage:last-child {
+    right: 5rem;
 }
 
-.articleToppingSnacksImage:nth-child(2){
-    left: 5rem;
+.articleToppingSnacksImage:nth-child(2) {
+    left: 4rem;
 }
 
-.articleToppingSnacks:first-child{
+.articleToppingSnacks:not(:last-child) {
     margin-bottom: 5rem;
 }
 
-.snackItem{
+.snackItem {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0.5rem;
 }
 
-.articleToppingSnacksTextContainer div:first-child{
-    margin-top: 1rem;
+.articleToppingSnacksTextContainer div {
     margin-bottom: 3rem;
 }
 
-.articleToppingSnacksTextContainer div:last-child{
-    margin-top: 3rem;
+.articleToppingSnacksTextContainer div:first-child {
+    margin-top: 1rem;
+}
+
+.articleToppingSnacksTextContainer div {
+    margin-bottom: 3rem;
+}
+
+.articleToppingSnacksTextContainer li:last-child {
+    margin-bottom: 3rem;
+}
+
+.articleProteinBases {
+    border: 3px solid #003c5a;
+    background-color: rgb(255, 255, 255);
+    color: rgb(16, 96, 122);
+}
+
+@media screen and (min-width: 332px) {
+    .articleTitle {
+        font-size: 2.5rem;
+    }
+
+    .sectionProteinBases {
+        min-width: none;
+    }
+
+    .informationContainer {
+        position: relative;
+        font-size: 0.9rem;
+        margin-top: 1.5rem;
+    }
+
+    .informationContainer div p:first-child {
+        margin-left: 0rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .articleProteinBaseImageRight {
+        position: relative;
+        left: -2%;
+        width: 100px;
+        height: 100px;
+    }
+
+    .articleProteinBaseImageLeft {
+        position: relative;
+        right: 2%;
+        width: 100px;
+        height: 100px;
+    }
+
+    .articleProteinBases ul {
+        font-size: 1.2rem;
+    }
+
+    .sectionProteinBases {
+        padding-bottom: 1.5rem;
+    }
+
+    .toppingSnacksLeft {
+        margin-left: 5rem;
+    }
+
+    .toppingSnacksRight {
+        margin-right: 5rem;
+    }
+
+    .articleToppingSnacksTextContainer {
+        width: 30%;
+        margin-left: 2rem;
+        padding: 0.5rem;
+    }
+
+    .articleToppingSnacksTextContainer .articleTitle {
+        font-size: 2rem;
+    }
+
+    .articleToppingSnacksTextContainer ul {
+        font-size: 1rem;
+    }
+
+    .articleToppingSnacksImageContainer {
+        width: 40%;
+    }
+
+    .articleToppingSnacksImage {
+        width: 125px;
+        height: 125px;
+    }
+
+    .articleToppingSnacksImage:first-child,
+    .articleToppingSnacksImage:last-child {
+        right: 0.2rem;
+    }
+
+    .articleToppingSnacksImage:nth-child(2) {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        left: 0.5rem;
+    }
+
+    .toppingSnacksLeft {
+        margin-left: 0.5rem;
+    }
+
+    .toppingSnacksRight {
+        margin-right: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .informationContainer {
+        font-size: 1.15rem;
+    }
+
+    .articleProteinBaseImageRight {
+        left: 15%;
+        width: 150px;
+        height: 150px;
+    }
+
+    .articleProteinBaseImageLeft {
+        right: 15%;
+        width: 150px;
+        height: 150px;
+    }
+
+    .articleProteinBases ul {
+        font-size: 1.5rem;
+    }
+
+    .articleToppingSnacksTextContainer .articleTitle {
+        font-size: 2rem;
+    }
+
+    .articleToppingSnacksTextContainer ul {
+        font-size: 1rem;
+    }
+
+    .articleToppingSnacksImage {
+        width: 150px;
+        height: 150px;
+    }
+
+    .articleToppingSnacksImage:first-child,
+    .articleToppingSnacksImage:last-child {
+        right: 0.5rem;
+    }
+
+    .articleToppingSnacksImage:nth-child(2) {
+        left: 2rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .informationContainer {
+        display: flex;
+        align-items: center;
+        font-size: 1.5rem;
+    }
+
+    .articleProteinBaseImageRight {
+        left: 2%;
+        width: 175px;
+        height: 175px;
+    }
+
+    .articleProteinBaseImageLeft {
+        right: 2%;
+        width: 175px;
+        height: 175px;
+    }
+
+    .articleProteinBases ul {
+        font-size: 1.5rem;
+    }
+
+    .articleToppingSnacksTextContainer .articleTitle {
+        font-size: 2rem;
+    }
+
+    .articleToppingSnacksTextContainer ul {
+        font-size: 1.3rem;
+    }
+
+    .articleToppingSnacksImage {
+        width: 175px;
+        height: 175px;
+    }
+
+    .articleToppingSnacksImage:first-child,
+    .articleToppingSnacksImage:last-child {
+        right: 1rem;
+    }
+
+    .articleToppingSnacksImage:nth-child(2) {
+        left: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .articleTitle,
+    .articleToppingSnacks .articleTitle {
+        font-size: 3rem;
+    }
+
+    .sectionProteinBases {
+        padding-bottom: 1.5rem;
+    }
+
+    .informationContainer {
+        font-size: 2rem;
+    }
+
+    .articleProteinBaseImageRight {
+        position: relative;
+        left: 2%;
+        width: 250px;
+        height: 250px;
+    }
+
+    .articleProteinBaseImageLeft {
+        position: relative;
+        right: 2%;
+        width: 250px;
+        height: 250px;
+    }
+
+    .articleProteinBases ul {
+        font-size: 2rem;
+    }
+
+    .articleToppingSnacksTextContainer .articleTitle {
+        font-size: 3rem;
+    }
+
+    .articleToppingSnacksTextContainer ul {
+        font-size: 2rem;
+    }
+
+    .toppingSnacksLeft {
+        margin-left: 5rem;
+    }
+
+    .toppingSnacksRight {
+        margin-right: 5rem;
+    }
+
+    .articleToppingSnacksImage {
+        width: 250px;
+        height: 250px;
+    }
+
+    .articleToppingSnacksImage:first-child,
+    .articleToppingSnacksImage:last-child {
+        right: 1rem;
+    }
+
+    .articleToppingSnacksImage:nth-child(2) {
+        left: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+
+    .articleTitle,
+    .articleToppingSnacks .articleTitle {
+        font-size: 3.5rem;
+    }
+
+    .sectionProteinBases {
+        padding-bottom: 1.5rem;
+    }
+
+    .informationContainer {
+        font-size: 2.5rem;
+    }
+
+    .informationContainer div p:last-child {
+        font-size: 2rem;
+    }
+
+    .articleProteinBaseImageRight {
+        position: relative;
+        left: 2%;
+        width: 250px;
+        height: 250px;
+    }
+
+    .articleProteinBaseImageLeft {
+        position: relative;
+        right: 2%;
+        width: 250px;
+        height: 250px;
+    }
+
+    .articleProteinBases ul {
+        font-size: 2.5rem;
+    }
+
+    .articleToppingSnacksTextContainer .articleTitle {
+        font-size: 3rem;
+    }
+
+    .articleToppingSnacksTextContainer ul {
+        font-size: 2.5rem;
+    }
+
+    .articleToppingSnacksTextContainer:not(:first-child) ul li:last-child {
+        font-size: 2rem;
+    }
+
+    .articleToppingSnacksImage {
+        width: 250px;
+        height: 250px;
+    }
+
+    .articleToppingSnacksImage:first-child,
+    .articleToppingSnacksImage:last-child {
+        right: 1rem;
+    }
+
+    .articleToppingSnacksImage:nth-child(2) {
+        left: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1500px) {
+
+    .articleTitle,
+    .articleToppingSnacks .articleTitle {
+        font-size: 3.5rem;
+    }
+
+    .sectionProteinBases {
+        padding-bottom: 1.5rem;
+    }
+
+    .informationContainer {
+        margin-bottom: 5rem;
+        display: block;
+        position: relative;
+        font-size: 2.5rem;
+    }
+
+    .informationContainer:nth-child(2) {
+        margin-top: 5rem;
+    }
+
+    .informationContainer:nth-child(odd) {
+        width: 75%;
+    }
+
+    .informationContainer:nth-child(even) {
+        margin-left: 25%;
+    }
+
+    .informationContainer div p:last-child {
+        font-size: 2rem;
+    }
+
+    .articleProteinBaseImageRight {
+        position: absolute;
+        bottom: -45%;
+        left: -35%;
+        width: 275px;
+        height: 275px;
+    }
+
+    .articleProteinBaseImageLeft {
+        position: absolute;
+        bottom: -50%;
+        right: -35%;
+        width: 275px;
+        height: 275px;
+    }
+}
+
+@media screen and (min-width: 1828px) {
+    .informationContainer:last-child .articleProteinBaseImageRight {
+        bottom: -85%;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .title {
+        font-size: 7.5rem;
+    }
+
+    .subtitle {
+        font-size: 3.75rem;
+    }
+
+    .articleTitle,
+    .articleToppingSnacks .articleTitle {
+        font-size: 4rem;
+    }
+
+    .informationContainer {
+        font-size: 3rem;
+    }
+
+    .informationContainer div p:last-child {
+        font-size: 2.5rem;
+    }
+
+    .articleProteinBaseImageRight {
+        position: absolute;
+        bottom: -45%;
+        left: -30%;
+        width: 325px;
+        height: 325px;
+    }
+
+    .articleProteinBaseImageLeft {
+        position: absolute;
+        bottom: -50%;
+        right: -25%;
+        width: 325px;
+        height: 325px;
+    }
+
+    .informationContainer:last-child .articleProteinBaseImageRight {
+        bottom: -50%;
+    }
+
+    .articleProteinBases ul {
+        font-size: 3rem;
+    }
+
+    .articleToppingSnacksTextContainer {
+        height: 85%;
+    }
+
+    .articleToppingSnacksTextContainer .articleTitle {
+        font-size: 4rem;
+    }
+
+    .articleToppingSnacksTextContainer ul {
+        font-size: 3rem;
+    }
+
+    .articleDrinksTextContainer ul div li:nth-child(2) {
+        font-size: 2.5rem;
+    }
+
+    .articleToppingSnacksTextContainer:not(:first-child) ul li:last-child {
+        font-size: 2rem;
+    }
+
+    .articleToppingSnacksImage {
+        width: 350px;
+        height: 350px;
+    }
+}
+
+@media screen and (min-width: 2269px) {
+    .informationContainer:last-child {
+        margin-bottom: 7rem;
+    }
+
+    .articleProteinBaseImageRight {
+        bottom: -45%;
+        left: -30%;
+    }
+
+    .informationContainer:last-child .articleProteinBaseImageRight {
+        bottom: -95%;
+    }
+}
+
+@media screen and (min-width: 2435px) {
+    .informationContainer:not(:first-child){
+        margin-top: 7rem;
+    }
+
+    .articleProteinBaseImageRight {
+        bottom: -45%;
+        left: -30%;
+    }
+
+    .informationContainer:nth-child(4) .articleProteinBaseImageRight{
+        bottom: -90%;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .title {
+        font-size: 10rem;
+    }
+
+    .subtitle {
+        font-size: 5rem;
+    }
+
+    .articleTitle,
+    .articleToppingSnacks .articleTitle {
+        font-size: 5rem;
+    }
+
+    .informationContainer {
+        font-size: 4rem;
+    }
+
+    .informationContainer div p:last-child {
+        font-size: 3.5rem;
+    }
+
+    .articleProteinBaseImageRight {
+        position: absolute;
+        bottom: -45%;
+        left: -30%;
+        width: 400px;
+        height: 400px;
+    }
+
+    .articleProteinBaseImageLeft {
+        position: absolute;
+        bottom: -50%;
+        right: -25%;
+        width: 400px;
+        height: 400px;
+    }
+
+    .informationContainer:nth-child(4) .articleProteinBaseImageRight{
+        bottom: -30%;
+    }
+
+    .informationContainer:last-child .articleProteinBaseImageRight {
+        bottom: -50%;
+    }
+
+    .articleProteinBases ul {
+        font-size: 4rem;
+    }
+
+    .articleToppingSnacksTextContainer {
+        height: 85%;
+    }
+
+    .articleToppingSnacksTextContainer .articleTitle {
+        font-size: 5rem;
+    }
+
+    .articleToppingSnacksTextContainer ul {
+        font-size: 4rem;
+    }
+
+    .articleDrinksTextContainer ul div li:nth-child(2) {
+        font-size: 3.5rem;
+    }
+
+    .articleToppingSnacksTextContainer:not(:first-child) ul li:last-child {
+        font-size: 3rem;
+    }
+
+    .articleToppingSnacksImage {
+        width: 450px;
+        height: 450px;
+    }
 }
