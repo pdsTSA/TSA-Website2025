@@ -89,14 +89,14 @@ export const index = () => {
           <div className = {styles.r}>
           <Medal className = {styles.medal} />
           <h3>250 points</h3>
-          <p>VIP discount (5% off when using the reusable container or cup)</p> 
+          <p>VIP discounts with reusable merchandise!</p> 
           </div>
 
           <div className = {styles.r}>
           <Medal className = {styles.medal} />
           <h3>500 points</h3>
-          <p>A tree is planted in the Philippines through 
-          our Tree of Life partnership!</p> 
+          <p>A tree is planted through 
+          our Tree of Life partnership with the Philippines!</p> 
           </div>
         </div>
       </div>
