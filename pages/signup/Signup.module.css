@@ -71,6 +71,10 @@
     justify-content: center;
 }
 
+.logo {
+    border-radius: 16px;
+}
+
 .signup_legal {
     padding-top: 20px;
 }
