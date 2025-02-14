@@ -23,3 +23,7 @@
 .backToTop:hover {
     text-decoration: underline;
 }
+
+.circle{
+    border-radius: 50%;
+}
