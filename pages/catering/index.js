@@ -59,7 +59,7 @@ export const index = () => {
             <div className = {styles.tcontainer}>
               <h2>SIDES & SWEETS</h2>
               <ul>
-                <li>Calamansi Juice Jug (1 gallon) <span>$35.00</span></li>
+                <li>Calamansi Juice Jug <span>$35.00</span></li>
                 <li>Family-Sized Halo-Halo <span>$24.00</span></li>
                 <li>Ginisang Kangkong <span>$35.00</span></li>
               </ul>
