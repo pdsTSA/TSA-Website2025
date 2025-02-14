@@ -9,11 +9,13 @@ export const index = () => {
           <h1 className = {styles.title}>SustainaBites <br /> Rewards Club</h1>
           <p className = {styles.subtitleOne}>One Bite Closer to a Greener Tomorrow</p>
           <p className = {styles.subtitle}>
-            Earn rewards while supporting sustainability.
-            Join the SustainaBites Rewards Club and get 
-            points every time you dine sustainably. Sign 
-            up with your first purchase today and start 
-            earning towards a greener future!
+            Earn points while dining at Adobo Agogo, either
+            on-site or to-go!
+            By joining the SustainaBites Rewards Club, you'll 
+            earn points every time you dine sustainably which
+            you can use to earn rewards. Sign 
+            up with your first purchase today to start 
+            eating towards a sunny future!
           </p>
         </div>
         <Logo className = {styles.logo} />
@@ -27,7 +29,7 @@ export const index = () => {
             <strong>Eat & Earn</strong>
             </p>
             <p className = {styles.subnum}>
-            Earn 10 points for every $10 spent at Adobo
+            Earn <strong>10</strong> points for every $10 spent at Adobo
             Agogo
             </p>
         </div>
@@ -39,9 +41,9 @@ export const index = () => {
             <strong>Redeem & Reuse</strong>
             </p>
             <p className = {styles.subnum}>
-            Use points for free food, discounts,
-            and eco-friendly rewards like reusable
-            Adobo Agogo cups and containers.
+            Use points to earn free food, discounts,
+            and other eco-friendly rewards like reusable
+            Adobo Agogo cups and bowls
             </p>
         </div>
 
@@ -52,8 +54,8 @@ export const index = () => {
             <strong>Save & Sustain</strong>
             </p>
             <p className = {styles.subnum}>
-            For every 500 points earned, we plant a 
-            tree in the Philippines to help restore forests!
+            For every <strong>500</strong> points earned, we plant a 
+            tree in the Philippines to help restore forests
             </p>
         </div>
       </div>  
