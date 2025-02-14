@@ -25,7 +25,7 @@ const Schedule = () => {
             opacity: 0,
             scrollTrigger: {
                 trigger: leftCard.current,
-                start: "top center"
+                start: "top 60%"
             }
         })
 
@@ -35,7 +35,7 @@ const Schedule = () => {
             delay: rightDelay,
             scrollTrigger: {
                 trigger: rightCard.current,
-                start: "top center"
+                start: "top 60%"
             }
         })
     }, {scope: parent})
