@@ -1,12 +1,14 @@
 import Layout from '@/components/layout/Layout';
 import styles from "@/styles/About.module.css";
 import FarmIcon from "@/assets/Farm Icon.svg";
-import SustainableIcon from "@/assets/Sustainable Practices Icon.svg";
+import SustainableIcon from "@/assets/Sustainable Practice Icon.svg";
 import PlantIcon from "@/assets/Plant-Based Icon.svg";
 
 export const index = () => {
   return (
       <div>
+        <div className={styles.nav}>
+        </div>
         <div className={styles.container}>
           <section className={styles.about}>
             <div className = {styles.londrina}>
