@@ -293,6 +293,14 @@
         width: 40%;
     }
 
+    .articleToppingSnacksTextContainer:nth-child(2){
+        margin-left: 0.5rem;
+    }
+
+    .articleToppingSnacksTextContainer:nth-child(2) ul{
+        padding-left: 0;
+    }
+
     .articleToppingSnacksImageContainer:nth-child(3) {
         width: 100%;
         overflow-x: hidden;
