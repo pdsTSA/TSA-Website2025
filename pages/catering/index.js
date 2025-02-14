@@ -15,7 +15,10 @@ const playfair = Playfair_Display({
 
 export const index = () => {
   return (
-      <div>
+      <div className={styles.menu}>
+        <div className={styles.nav}>
+
+        </div>
           <div className = {styles.menuContainer}>
             <div className = {styles.londrina}>
             <div className = {styles.title}>CATERING</div>

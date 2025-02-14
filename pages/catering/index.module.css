@@ -4,11 +4,24 @@
   font-family: 'Londrina Solid', sans-serif;
 }
 
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
 .menuContainer {
     margin: auto;
     padding: 20px;
     text-align: center;
     position: relative;
+    width: 75%;
+}
+
+.nav {
+    height: 75px;
+    background-color: #10607A;
 }
 
 .title {
@@ -19,7 +32,7 @@
 }
 
 .titletwo {
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: lighter;
     color: #729D82;
 }
@@ -149,7 +162,7 @@
     max-width: 50vh;
     position: absolute;
     z-index: 1;
-    top: -70%;
+    top: -20%;
     left: 140%;
 }
 
@@ -157,8 +170,8 @@
     max-width: 50vh;
     position: absolute;
     z-index: 1;
-    bottom: -105%;
-    right: -58%;
+    bottom: -80%;
+    right: -78%;
     transform: rotate(3deg);
 }
 
@@ -185,8 +198,8 @@
     position: absolute;
     width: 100%;
     border-radius: 15px;
-    bottom: -128%;
-    right: -73%;
+    bottom: -75%;
+    right: -105%;
     max-width: 50vh;
 
 }
@@ -216,11 +229,12 @@
     }
 
     .Four {
-        bottom: -108%;
+        bottom: -60%;
     }
 
     .Halo {
-        bottom: -101%;
+        bottom: -40%;
+        left: 110%;
     }
 
     .tcontainerTwo h2 {
@@ -254,17 +268,17 @@
     }
 
     .Three {
-        top: -76%;
+        top: -46%;
         left: 137%;
     }
 
     .Four {
-        right: -65%;
+        right: -85%;
     }
 
     .Halo {
-        right: -87%;
-        bottom: -118%;
+        right: -107%;
+        bottom: -68%;
     }
 }
 
@@ -289,11 +303,13 @@
     }
 
     .Halo {
-        right: -100%;
+        right: -110%;
+        bottom: -50%;
     }
 
     .Four {
-        right: -65%;
+        right: -105%;
+        bottom: -65%;
     }
 }
 
