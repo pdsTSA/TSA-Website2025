@@ -6,6 +6,7 @@ import Link from "next/link";
 import {useCookies} from "react-cookie";
 import {jwtDecode} from "jwt-decode";
 import {useState} from "react";
+import {useRouter} from "next/navigation";
 
 
 const font = Londrina_Solid({
@@ -22,11 +23,14 @@ const index = () => {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
 
+    const router = useRouter();
+
     const parseGoogleResponse = (credentialResponse) => {
         const cred = credentialResponse.credential;
         const decoded = jwtDecode(cred);
 
         setCookies(decoded.given_name, decoded.email, decoded.picture)
+        movePage();
     }
 
     const setCookies = (name, email, picture) => {
@@ -38,6 +42,11 @@ const index = () => {
     const handleSubmission = () => {
         if (name === "" || email === "") return;
         setCookies(name, email, "default");
+        movePage();
+    }
+
+    const movePage = () => {
+        router.push("/");
     }
 
     return (
