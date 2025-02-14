@@ -29,10 +29,12 @@
 }
 
 .title {
+    margin-bottom: 0;
     font-size: 5rem;
 }
 
 .subtitle {
+    margin-top: 2rem;
     font-size: 2.5rem;
 }
 
@@ -56,6 +58,7 @@
 }
 
 .articleTitle {
+    margin-top: 0;
     margin-bottom: 1rem;
     font-size: 3.5rem;
     text-decoration: underline;
@@ -150,7 +153,11 @@
     padding: 1rem 1rem 0 1rem;
     border: 3px solid #003c5a;
     background-color: rgb(255, 255, 255);
-    color: rgb(16, 96, 122);
+    color: #003C5A;
+}
+
+.articleToppingSnacksTextContainer ul div li:last-child {
+    font-size: 1rem;
 }
 
 .articleToppingSnacksImageContainer {
@@ -209,7 +216,8 @@
 .articleProteinBases {
     border: 3px solid #003c5a;
     background-color: rgb(255, 255, 255);
-    color: rgb(16, 96, 122);
+    /* color: #093847; */
+    color: #003C5A;
 }
 
 @media screen and (min-width: 332px) {
@@ -218,6 +226,7 @@
     }
 
     .sectionProteinBases {
+        overflow: hidden;
         min-width: none;
     }
 
@@ -265,7 +274,6 @@
     .articleToppingSnacksTextContainer {
         width: 30%;
         margin-left: 2rem;
-        padding: 0.5rem;
     }
 
     .articleToppingSnacksTextContainer .articleTitle {
@@ -276,24 +284,34 @@
         font-size: 1rem;
     }
 
+    .articleToppingSnacksTextContainer ul div li:last-child {
+        font-size: 0.9rem;
+        font-style: italic;
+    }
+
     .articleToppingSnacksImageContainer {
         width: 40%;
     }
 
+    .articleToppingSnacksImageContainer:nth-child(3) {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
     .articleToppingSnacksImage {
-        width: 125px;
-        height: 125px;
+        width: 100px;
+        height: 100px;
     }
 
     .articleToppingSnacksImage:first-child,
     .articleToppingSnacksImage:last-child {
-        right: 0.2rem;
+        right: 0rem;
     }
 
     .articleToppingSnacksImage:nth-child(2) {
         margin-top: 1rem;
         margin-bottom: 1rem;
-        left: 0.5rem;
+        left:0rem;
     }
 
     .toppingSnacksLeft {
@@ -345,7 +363,7 @@
     }
 
     .articleToppingSnacksImage:nth-child(2) {
-        left: 2rem;
+        left: 0.5rem;
     }
 }
 
@@ -378,6 +396,10 @@
 
     .articleToppingSnacksTextContainer ul {
         font-size: 1.3rem;
+    }
+
+    .articleToppingSnacksTextContainer ul div li:last-child {
+        font-size: 1rem;
     }
 
     .articleToppingSnacksImage {
@@ -434,6 +456,10 @@
 
     .articleToppingSnacksTextContainer ul {
         font-size: 2rem;
+    }
+
+    .articleToppingSnacksTextContainer ul div li:last-child {
+        font-size: 1.5rem;
     }
 
     .toppingSnacksLeft {
@@ -502,6 +528,10 @@
 
     .articleToppingSnacksTextContainer ul {
         font-size: 2.5rem;
+    }
+
+    .articleToppingSnacksTextContainer ul div li:last-child {
+        font-size: 2rem;
     }
 
     .articleToppingSnacksTextContainer:not(:first-child) ul li:last-child {
@@ -636,6 +666,10 @@
 
     .articleToppingSnacksTextContainer ul {
         font-size: 3rem;
+    }
+
+    .articleToppingSnacksTextContainer ul div li:last-child {
+        font-size: 2.5rem;
     }
 
     .articleDrinksTextContainer ul div li:nth-child(2) {
