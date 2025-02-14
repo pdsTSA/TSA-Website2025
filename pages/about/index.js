@@ -1,9 +1,81 @@
 import Layout from '@/components/layout/Layout';
+import styles from "@/styles/About.module.css";
 
 export const index = () => {
   return (
       <div>
-          <p>does this work about page???</p>
+        <div className={styles.container}>
+          <section className={styles.about}>
+            <div className = {styles.londrina}>
+            <h1>About Us</h1>
+            </div>
+          <p>At Adobo Agogo, we strive to redefine Filipino cuisine while prioritizing sustainability!</p>
+          </section>
+
+          <section className={styles.contentBox + " " + styles.farmToTable}>
+            <div className={styles.text}>
+              <div className = {styles.londrina}>
+              <h2>Farm-To-Table Freshness</h2>
+              </div>
+              <p>We source seasonal ingredients directly from local farmers, ensuring every dish is fresh, nutritious, and supports locally-owned businesses and agriculture.</p>
+            </div>
+            <FarmIcon className={styles.icon} />
+          </section>
+
+          <section className={styles.contentBox + " " + styles.sustainablePractices}>
+          <SustainableIcon className={styles.icon} />
+            <div className={styles.text}>
+              <div className = {styles.londrina}>
+              <h2>Sustainable Practices</h2>
+              </div>
+              <p>From compostable packaging to reducing food waste, we're committed to eco-friendly dining that prioritizes people and the planet.</p>
+            </div>
+          </section>
+
+          <section className={styles.contentBox + " " + styles.plantBased}>
+            <div className={styles.text}>
+              <div className = {styles.londrina}>
+              <h2>Plant-Based</h2>
+              </div>
+              <p>We source seasonal ingredients directly from local farmers, ensuring every dish is fresh, nutritious, and supports locally-owned businesses and agriculture.</p>
+            </div>
+            <PlantIcon className={styles.icon} />
+          </section>
+
+          <section className={styles.contactSection}>
+            <h1 className={styles.contactTitle}>Contact & Information</h1>
+            <div className={styles.contactBox}>
+              <div className={styles.contactDetailsTop}>
+                <h2 className={styles.contactSubtitle}>Location</h2>
+                <p>728 Mabini Street<br />San Francisco, CA 94110</p>
+              </div>
+              <div className={styles.contactDetails}>
+                <h2 className={styles.contactSubtitle}>Telephone</h2>
+                <p>415-872-6655</p>
+              </div>
+              <div className={styles.contactDetails}>
+                <h2 className={styles.contactSubtitle}>Email</h2>
+                <p>INFO@ADOBOAGOGO.COM</p>
+              </div>
+            </div>
+            <div className={styles.contactFooter}>
+              <div className={styles.footerColumn}>
+                <p><strong>Work At Adobo</strong></p>
+                <p>Press Inquiries</p>
+                <p>PR@adoboveganrestaurants.com</p>
+              </div>
+              <div className={styles.footerColumnMiddle}>
+                <p>728 Mabini Street<br />San Francisco, CA 94110<br />
+                415-872-6655 ·<br />INFO@ADOBOAGOGO.COM</p>
+              </div>
+              <div className={styles.footerColumn}>
+                <p><strong>Connect with us</strong></p>
+                <p>📞 📍 🌍 🌍</p>
+                <p><a href="#">Sign up for emails</a></p>
+              </div>
+            </div>
+          </section>
+        </div>
       </div>
   )
 }
