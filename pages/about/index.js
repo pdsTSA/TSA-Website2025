@@ -1,5 +1,8 @@
 import Layout from '@/components/layout/Layout';
 import styles from "@/styles/About.module.css";
+import FarmIcon from "@/assets/Farm Icon.svg";
+import SustainableIcon from "@/assets/Sustainable Practices Icon.svg";
+import PlantIcon from "@/assets/Plant-Based Icon.svg";
 
 export const index = () => {
   return (
@@ -46,15 +49,21 @@ export const index = () => {
             <h1 className={styles.contactTitle}>Contact & Information</h1>
             <div className={styles.contactBox}>
               <div className={styles.contactDetailsTop}>
+                <div className = {styles.londrina}>
                 <h2 className={styles.contactSubtitle}>Location</h2>
+                </div>
                 <p>728 Mabini Street<br />San Francisco, CA 94110</p>
               </div>
               <div className={styles.contactDetails}>
+                <div className = {styles.londrina}>
                 <h2 className={styles.contactSubtitle}>Telephone</h2>
+                </div>
                 <p>415-872-6655</p>
               </div>
               <div className={styles.contactDetails}>
+                <div className = {styles.londrina}>
                 <h2 className={styles.contactSubtitle}>Email</h2>
+                </div>
                 <p>INFO@ADOBOAGOGO.COM</p>
               </div>
             </div>
