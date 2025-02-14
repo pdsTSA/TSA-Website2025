@@ -47,7 +47,7 @@ const FeaturedItem = () => {
                     dish is finished with a squeeze of calamansi for
                     the perfect balance of heat and citrus. Pictured
                     here, it is served over your choice of garlic rice
-                    or pancit bihon, its the ultimate comfort meall
+                    or pancit bihon, its the ultimate comfort meal
                     —hearty, flavorful, and 100% plant-based.</p>
             </div>
         </div>
