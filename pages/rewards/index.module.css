@@ -34,18 +34,13 @@
     margin-top: 14px;
     display: flex;
     text-align: left;
-    max-width: 600px;
+    max-width: 650px;
     padding: 0;
     width: 100%;
     font-weight: bold;
     flex-wrap: wrap;
 }
 
-@media (max-width: 600px) {
-    .subtitle {
-        padding-right: 4vh;
-    }
-}
 
 .subtitleOne {
     font-size: 1.2rem;
@@ -66,6 +61,7 @@
     flex-direction: row;
     align-items: flex-start;
     gap: 15vh;
+    padding-top: 15vh;
 }
 
 .reward {
@@ -144,6 +140,8 @@
 }
 
 .r {
+    width: 20em;
+    height: 18em;
     background: transparent;
     border-radius: 10px;
     border: 2px solid #005f73;
@@ -154,6 +152,7 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
+    gap: 50px;
 }
 
 .r h3 {
@@ -165,12 +164,23 @@
 .r p {
     font-size: 1rem;
     color: #005f73;
-    padding-bottom: 15px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
 }
 
 .medal {
     height: auto;
     margin: 0 auto;
+}
+
+@media (max-width: 1800px) {
+    .logo {
+        bottom: 30%;
+    }
 }
 
 @media (max-width: 690px) {
@@ -191,10 +201,26 @@
     
 }
 
-@media (max-width: 768px) {
+@media (max-width: 765px) {
     .logo {
-        width: 80%;
+        display: none ;
+    }
+
+    .subtitle {
+        padding-right: 15vh;
     }
 }
+
+@media (max-width: 405px) {
+    .subtitleOne {
+        padding-right: 15vh;
+    }
+
+    .title {
+        padding-right: 15vh;
+        font-size: 2.75rem;
+    }
+}
+
 
 

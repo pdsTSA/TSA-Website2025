@@ -28,6 +28,7 @@ return (
           <li><a href = "/rewards">Rewards</a></li>
           <li><a href = "/catering">Catering</a></li>
           <li><a href = "/about">About Us</a></li>
+          <li><a href = "/reference">Reference Page</a></li>
           <li><a href = "/signup" className = {styles.button}> Sign Up</a></li>
         </ul>
       </nav>
