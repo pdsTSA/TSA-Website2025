@@ -48,6 +48,10 @@
     margin-left: 50px;
 }
 
+.button a {
+    color: white;
+}
+
 .b {
     padding-bottom: 2em;
 }
@@ -57,4 +61,8 @@
     background-color: white;
     color: #10607A;
     border: 1px solid #10607A;
+}
+
+.button:hover a {
+    color: #10607A;
 }

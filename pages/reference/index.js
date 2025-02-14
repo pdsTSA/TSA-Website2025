@@ -30,6 +30,8 @@ export const index = () => {
 thefoodietakesflight.com/crispy-tofu-sisig. <br /><br />
 "Filipino Mushroom Sisig (Vegan)." The Foodie Takes Flight, 2 Nov. 2021,
 thefoodietakesflight.com/filipino-mushroom-sisig. <br /> <br />
+            "8 Vegetarian and Vegan Youtube Channels That Make Plant-Based Cooking Easy." Gotham Magazine, 14 May 2024,
+              gothammag.com/plant-based-vegetarian-vegan-youtube-recipes <br /> <br />
 Walterhouse, Ashley. "Easy Jackfruit Tacos." Fit Mitten Kitchen, 10 Sept. 2024,
 www.fitmittenkitchen.com/jackfruit-tacos. <br /> <br />
 Yum, Maya. "Chinese Eggplant Stir Fry." Wholesome Yum, 8 Aug. 2024,
@@ -58,7 +60,7 @@ M. Wallflower. Lineless Detailed Archetype. Canva, n.d. <br /> <br />
 
           </p>
           <h1 className = {styles.title}>Software</h1>
-          <p className = {styles.subtitle}>Our website was made with the React library and NextJs framework. It is hosted on Vercel.</p>
+          <p className = {styles.subtitle}>Our website was made with the React library and NextJs framework. It is hosted on Vercel. OAuth provided by Google.</p>
         </div>
        </div>
   )
