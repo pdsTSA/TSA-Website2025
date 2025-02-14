@@ -1,7 +1,7 @@
 import styles from "./Navbar.module.css";
 import { useState } from "react";
 import Link from "next/link";
-import Logo from "@/assets/logo.svg";
+import Logo from "@/assets/logo-nobg.svg";
 import { Squash as Hamburger } from "hamburger-react";
 
 
@@ -18,7 +18,6 @@ return (
         <Logo width = {150} height = {50} />
       </Link>
       </div>
-        <div className = {styles.logo}>Adobo Agogo</div>
         <div className = {styles.menuToggle} onClick={() => {
           setMenuOpen(!menuOpen);
           }}>
@@ -32,7 +31,6 @@ return (
           <li><a href = "/signup" className = {styles.button}> Sign Up</a></li>
         </ul>
       </nav>
-      
     );
 }
 
