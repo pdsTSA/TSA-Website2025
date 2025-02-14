@@ -60,7 +60,7 @@ export const index = () => {
                 <div className = {styles.londrina}>
                 <h2 className={styles.contactSubtitle}>Telephone</h2>
                 </div>
-                <p>415-872-6655</p>
+                <p>+1 415-872-6655</p>
               </div>
               <div className={styles.contactDetails}>
                 <div className = {styles.londrina}>
@@ -77,11 +77,11 @@ export const index = () => {
               </div>
               <div className={styles.footerColumnMiddle}>
                 <p>728 Mabini Street<br />San Francisco, CA 94110<br />
-                415-872-6655 ·<br />INFO@ADOBOAGOGO.COM</p>
+                +1 415-872-6655 ·<br />INFO@ADOBOAGOGO.COM</p>
               </div>
               <div className={styles.footerColumn}>
                 <p><strong>Connect with us</strong></p>
-                <p>📞 📍 🌍 🌍</p>
+                <p>📞 📍 🌍 📧</p>
                 <p><a href="#">Sign up for emails</a></p>
               </div>
             </div>

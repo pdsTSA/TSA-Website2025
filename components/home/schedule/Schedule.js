@@ -49,7 +49,7 @@ const Schedule = () => {
                     advance. <br/>For catering inquiries
                     and to place your
                     catering order, email
-                    us at <br/><br/>INFO@ADOBOAGOGO.COM</p>
+                    us at <br/><br/><a href = "INFO@ADOBOAGOGO.COM" style={{color: "white"}}>INFO@ADOBOAGOGO.COM</a></p>
             </div>
             <div className={styles.schedule_column} ref={rightCard}>
                 <h1 className={font.className}>Lunch</h1>

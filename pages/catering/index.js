@@ -59,7 +59,7 @@ export const index = () => {
             <div className = {styles.tcontainer}>
               <h2>SIDES & SWEETS</h2>
               <ul>
-                <li>Calamansi Juice Jug (1 gallon) <span>$35.00</span></li>
+                <li>Calamansi Juice Jug <span>$35.00</span></li>
                 <li>Family-Sized Halo-Halo <span>$24.00</span></li>
                 <li>Ginisang Kangkong <span>$35.00</span></li>
               </ul>
@@ -71,7 +71,9 @@ export const index = () => {
 
             <div className = {styles.disclaimer}>
               <p>Menu items and prices subject to change.
-              All items listed above are full trays.</p>
+              All items listed above are full trays that can feel 8-11 people.
+              For catering inquiries, email us at <a href = "INFO@ADOBOAGOGO.COM" className = {styles.link}>
+INFO@ADOBOAGOGO.COM</a></p>
             </div>
 
           </div>

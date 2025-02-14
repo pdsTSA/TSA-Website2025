@@ -204,6 +204,10 @@
 
 }
 
+.link {
+    color: #005f73;
+}
+
 @media (min-width: 2245px) {
     .One {
         top: 7%;
