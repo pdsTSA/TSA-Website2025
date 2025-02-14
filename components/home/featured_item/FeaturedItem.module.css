@@ -25,7 +25,8 @@
 .featured_column h1 {
     color: white;
     font-size: 4em;
-    margin: auto;
+    margin: 0;
+    text-align: center;
 }
 
 .featured_column p {

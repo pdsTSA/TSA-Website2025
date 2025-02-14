@@ -14,7 +14,7 @@ const Navbar = () => {
 return (
       <nav className = {styles.navbar}>
       <div className = "logo">
-      <Link href = "/index">
+      <Link href = "/">
         <Logo width = {150} height = {50} />
       </Link>
       </div>
