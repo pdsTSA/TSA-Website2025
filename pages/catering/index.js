@@ -71,7 +71,9 @@ export const index = () => {
 
             <div className = {styles.disclaimer}>
               <p>Menu items and prices subject to change.
-              All items listed above are full trays.</p>
+              All items listed above are full trays that can feel 8-11 people.
+              For catering inquiries, email us at <a href = "INFO@ADOBOAGOGO.COM" className = {styles.link}>
+INFO@ADOBOAGOGO.COM</a></p>
             </div>
 
           </div>
