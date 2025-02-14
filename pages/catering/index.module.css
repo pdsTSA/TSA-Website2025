@@ -50,7 +50,7 @@
     position: relative;
     text-align: left;
     flex-direction: column;
-    margin-left: auto;
+    margin-right: auto;
 }
 
 .tcontainerTwo {
@@ -128,12 +128,12 @@
 }
 
 .One {
-    max-width: 60vh;
+    max-width: 70vh;
     position: absolute;
     z-index: 1;
-    top: -7%;
-    left: 60%;
-    transform: rotate(9deg);
+    top: -17%;
+    left: 125%;
+    transform: rotate(11deg);
 }
 
 .Two {
@@ -149,16 +149,17 @@
     max-width: 50vh;
     position: absolute;
     z-index: 1;
-    top: -36%;
-    left: 70%;
+    top: -70%;
+    left: 140%;
 }
 
 .Four {
     max-width: 50vh;
     position: absolute;
     z-index: 1;
-    bottom: -55%;
-    right: 18%;
+    bottom: -105%;
+    right: -58%;
+    transform: rotate(3deg);
 }
 
 .Lumpia {
@@ -166,8 +167,8 @@
     max-width: 50vh;
     position: absolute;
     border-radius: 15px;
-    left: 64%;
-    top: -45%;
+    left: 140%;
+    top: -57%;
 }
 
 .Jackfruit {
@@ -184,10 +185,67 @@
     position: absolute;
     width: 100%;
     border-radius: 15px;
-    bottom: -51%;
-    right: 10%;
+    bottom: -128%;
+    right: -73%;
     max-width: 50vh;
 
+}
+
+@media (min-width: 2245px) {
+    .One {
+        top: 7%;
+        left: 129%;
+    }
+
+    .Lumpia {
+        left: 143%;
+        top: -27%;
+    }
+
+    .Two {
+        top: -10%;
+    }
+
+    .Jackfruit {
+        top: -48%;
+        left: -89%;
+    }
+
+    .Three {
+        top: -20%;
+    }
+
+    .Four {
+        bottom: -108%;
+    }
+
+    .Halo {
+        bottom: -101%;
+    }
+
+    .tcontainerTwo h2 {
+        font-size: 3.5rem;
+    }
+
+    .tcontainer h2 {
+        font-size: 3.5rem;
+    }
+
+    .tcontainer ul li {
+        font-size: 2rem;
+    }
+
+    .tcontainerTwo ul li {
+        font-size: 2rem;
+    }
+
+    .title {
+        font-size: 7rem;
+    }
+
+    .titleTwo {
+        font-size: 9rem;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -196,19 +254,30 @@
     }
 
     .Three {
-        max-width: 50vh;
-        position: absolute;
-        z-index: 1;
-        top: -46%;
-        left: 67%;
+        top: -76%;
+        left: 137%;
     }
 
     .Four {
-        right: 20%;
+        right: -65%;
+    }
+
+    .Halo {
+        right: -87%;
+        bottom: -118%;
     }
 }
 
 @media (max-width: 768px){
+    .Lumpia {
+        left: 132%;
+        top: -48%;
+    }
+
+    .One {
+        left: 107%;
+    }
+
     .Jackfruit {
         top: -58%;
         left: -112%;
@@ -220,11 +289,11 @@
     }
 
     .Halo {
-        right: 5%;
+        right: -100%;
     }
 
     .Four {
-        right: 15%;
+        right: -65%;
     }
 }
 
@@ -290,6 +359,12 @@
     .disclaimer {
         margin-top: 0;
         font-size: 4vw;
+    }
+
+    @media (max-width: 320px) {
+        .titletwo {
+            font-size: 6rem;
+        }
     }
 
 
