@@ -1,5 +1,5 @@
 import style from "./Signup.module.css"
-import {CredentialResponse, GoogleLogin} from "@react-oauth/google";
+import {GoogleLogin} from "@react-oauth/google";
 import {Londrina_Solid} from "next/font/google";
 import Logo from "@/assets/logo.svg";
 import Link from "next/link";
@@ -15,10 +15,8 @@ const font = Londrina_Solid({
 })
 
 
-const index = () => {
-    const [nameCookie, setNameCookie, removeName] = useCookies(["user.name"]);
-    const [emailCookie, setEmailCookie, removeEmail] = useCookies(["user.email"]);
-    const [pictureCookie, setPictureCookie, removePicture] = useCookies(["user.picture"]);
+const Signup = () => {
+    const [cookies, setCookie, removeCookie] = useCookies(["user.name", "user.email", "user.picture"]);
 
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -34,9 +32,9 @@ const index = () => {
     }
 
     const setCookies = (name, email, picture) => {
-        setNameCookie("user.name", name);
-        setEmailCookie("user.email", email);
-        setPictureCookie("user.picture", picture);
+        setCookie("user.name", name);
+        setCookie("user.email", email);
+        setCookie("user.picture", picture);
     }
 
     const handleSubmission = () => {
@@ -83,5 +81,4 @@ const index = () => {
     )
 }
 
-
-export default index;
+export default Signup;
