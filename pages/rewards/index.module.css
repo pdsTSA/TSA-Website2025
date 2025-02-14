@@ -140,8 +140,8 @@
 }
 
 .r {
-    width: 60vh;
-    height: 50vh;
+    width: 20em;
+    height: 18em;
     background: transparent;
     border-radius: 10px;
     border: 2px solid #005f73;
@@ -152,6 +152,7 @@
     flex-direction: column;
     justify-content: center;
     margin: 0 auto;
+    gap: 50px;
 }
 
 .r h3 {
@@ -163,7 +164,7 @@
 .r p {
     font-size: 1rem;
     color: #005f73;
-    padding-bottom: 15px;
+    padding-bottom: 40px;
     padding-left: 10px;
     padding-right: 10px;
     overflow: hidden;
