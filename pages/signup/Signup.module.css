@@ -38,7 +38,7 @@
 .signup_content input {
     padding: 10px;
     border-radius: 16px;
-    border: 2px solid #10607a;
+    border: 2px solid #729d82;
     width: 40%;
     color: #003c5a;
     font-size: x-large;
@@ -61,7 +61,7 @@
     cursor: pointer;
     background-color: #003c5a;
     color: white;
-    border: #10607a 2px solid;
+    border: #729d82 2px solid;
     transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
 
