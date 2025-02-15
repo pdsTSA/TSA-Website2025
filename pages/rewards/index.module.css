@@ -232,6 +232,16 @@
     .title {
         font-size: 4rem;
     }
+    .subtitle {
+        margin-right: 50px;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 385px) {
+    .title {
+        font-size: 3rem;
+    }
 }
 
 

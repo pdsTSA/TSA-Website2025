@@ -13,7 +13,7 @@ export const index = () => {
             <div className = {styles.londrina}>
             <h1>About Us</h1>
             </div>
-          <p>At Adobo Agogo, we strive to redefine Filipino cuisine while prioritizing sustainability!</p>
+          <p>Savor the taste of Filipino cooking while saving the planet at Adobo Agogo</p>
           </section>
 
           <section className={styles.contentBox + " " + styles.farmToTable}>
@@ -21,7 +21,8 @@ export const index = () => {
               <div className = {styles.londrina}>
               <h2>Farm-To-Table Freshness</h2>
               </div>
-              <p>We source seasonal ingredients directly from local farmers, ensuring every dish is fresh, nutritious, and supports locally-owned businesses and agriculture.</p>
+              <p>With agriculture being the largest sector in the Philippines, Adobo Agogo understands the importance of supporting those who support you. That's why all of our seasonal ingredients are sourced directly from local farmers.
+</p>
             </div>
             <FarmIcon className={styles.icon} />
           </section>
@@ -32,7 +33,8 @@ export const index = () => {
               <div className = {styles.londrina}>
               <h2>Sustainable Practices</h2>
               </div>
-              <p>From compostable packaging to reducing food waste, we're committed to eco-friendly dining that prioritizes people and the planet.</p>
+              <p>With more customers embracing eco-friendly lifestyles, Adobo Agogo embraces them through our usage of recyclable packaging as well as our commitment to sustainability.
+</p>
             </div>
           </section>
 
@@ -41,7 +43,8 @@ export const index = () => {
               <div className = {styles.londrina}>
               <h2>Plant-Based</h2>
               </div>
-              <p>We source seasonal ingredients directly from local farmers, ensuring every dish is fresh, nutritious, and supports locally-owned businesses and agriculture.</p>
+              <p>Filipino cuisine is often meat-centric, making it challenging for vegetarians and vegans to find options. At Adobo Agogo, our commitment to plant-based cooking allows everyone to celebrate the rich flavors of the Philippines.
+</p>
             </div>
             <PlantIcon className={styles.icon} />
           </section>
