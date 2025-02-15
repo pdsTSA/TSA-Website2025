@@ -60,13 +60,13 @@ export const index = () => {
                 <div className = {styles.londrina}>
                 <h2 className={styles.contactSubtitle}>Telephone</h2>
                 </div>
-                <p>+1 415-872-6655</p>
+                <p>+1 415-872-6655 </p>
               </div>
               <div className={styles.contactDetails}>
                 <div className = {styles.londrina}>
                 <h2 className={styles.contactSubtitle}>Email</h2>
                 </div>
-                <p>INFO@ADOBOAGOGO.COM</p>
+                <p><a href = "INFO@ADOBOAGOGO.COM" style = {{color: "white"}}>INFO@ADOBOAGOGO.COM</a></p>
               </div>
             </div>
             <div className={styles.contactFooter}>

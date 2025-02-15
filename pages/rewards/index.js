@@ -97,7 +97,7 @@ export const index = () => {
           <Medal className = {styles.medal} />
           <h3>500 points</h3>
           <p>A tree is planted through 
-          our Tree of Life partnership with the Philippines!</p> 
+          our Tree of Life partnership!</p> 
           </div>
         </div>
       </div>

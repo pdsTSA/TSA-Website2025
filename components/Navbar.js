@@ -25,9 +25,10 @@ return (
           <Hamburger toggled={menuOpen} size={20} toggle={setMenuOpen} />
         </div>
         <ul className = {`${styles.navLinks} ${menuOpen ? styles.active : ""}`}>
+          <li><a href = "/home">Home</a></li>
           <li><a href = "/menu">Menu</a></li>
-          <li><a href = "/rewards">Rewards</a></li>
           <li><a href = "/catering">Catering</a></li>
+          <li><a href = "/rewards">Rewards</a></li>
           <li><a href = "/about">About Us</a></li>
           <li><a href = "/reference">Reference Page</a></li>
           <li><a href = "/signup" className = {styles.button}> Sign Up</a></li>
