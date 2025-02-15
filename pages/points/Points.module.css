@@ -29,12 +29,34 @@
     text-align: center;
 }
 
+.points_logout {
+    font-weight: 400;
+    font-style: normal;
+    font-size: larger;
+    color: rgb(16, 96, 122);
+    font-kerning: none;
+    text-decoration: none;
+    border-radius: 16px;
+    padding: 10px;
+    position: absolute;
+    border: #729d82 2px solid;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.points_logout:hover {
+    cursor: pointer;
+    background-color: #003c5a;
+    color: white;
+    border: #10607a 2px solid;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
 
 .profile {
     flex-shrink: 0;
     border-radius: 50%;
-    position: relative;
-    left: 10rem;
+    position: absolute;
+    right: 5%;
     border: 5px solid rgb(255, 255, 255);
     width: 250px;
     height: 250px;
@@ -58,4 +80,26 @@
 .overflow_background {
     background-color: #10607a;
     height: 100vh;
+}
+
+@media (max-width: 828px) {
+    .profile {
+        display: none;
+    }
+
+    .points_header {
+        flex-direction: column;
+        align-content: center;
+        gap: 10px;
+    }
+
+    .points_content h1 {
+        text-align: center;
+    }
+
+    .points_logout {
+        position: static;
+        width: 50%;
+        margin: auto;
+    }
 }
