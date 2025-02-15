@@ -1,4 +1,3 @@
-import Layout from '@/components/layout/Layout';
 import styles from "@/styles/About.module.css";
 import FarmIcon from "@/assets/Farm Icon.svg";
 import SustainableIcon from "@/assets/Sustainable Practice Icon.svg";
