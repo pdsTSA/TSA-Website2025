@@ -1,14 +1,17 @@
 import styles from  './index.module.css';
 import Logo from "@/assets/Rewards Page Blue Sun.svg";
 import Medal from "@/assets/Rewards Page Metal Image.svg";
+import {Londrina_Solid} from "next/font/google";
+
+const font = Londrina_Solid({ subsets: ['latin'], weight: "400" });
 
 export const index = () => {
   return (
       <div className = {styles.container}>
         <div className = {styles.hero}>
-          <h1 className = {styles.title}>SustainaBites <br /> Rewards Club</h1>
+          <h1 className = {`${styles.title} ${font.className}`}>SustainaBites <br /> Rewards Club</h1>
           <p className = {styles.subtitleOne}>One Bite Closer to a Greener Tomorrow</p>
-          <p className = {styles.subtitle}>
+          <p className = {`${styles.subtitle}`}>
             Earn points while dining at Adobo Agogo, either
             on-site or to-go!
             By joining the SustainaBites Rewards Club, you'll 
