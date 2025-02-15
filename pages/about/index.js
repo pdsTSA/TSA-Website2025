@@ -72,15 +72,14 @@ export const index = () => {
               <div className={styles.footerColumn}>
                 <p><strong>Work At Adobo</strong></p>
                 <p>Press Inquiries</p>
-                <p>PR@adoboveganrestaurants.com</p>
+                <p><a href = "PR@adoboveganrestaurants.com" style = {{color: "white"}}>PR@adoboveganrestaurants.com</a></p>
               </div>
               <div className={styles.footerColumnMiddle}>
                 <p>728 Mabini Street<br />San Francisco, CA 94110<br />
-                +1 415-872-6655 ·<br />INFO@ADOBOAGOGO.COM</p>
+                +1 415-872-6655 ·<br /><a href = "INFO@ADOBOAGOGO.COM" style = {{color: "white"}}>INFO@ADOBOAGOGO.COM</a></p>
               </div>
               <div className={styles.footerColumn}>
                 <p><strong>Connect with us</strong></p>
-                <p>📞 📍 🌍 📧</p>
                 <p><a href="#">Sign up for emails</a></p>
               </div>
             </div>
