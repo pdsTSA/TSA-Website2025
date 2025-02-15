@@ -22,6 +22,7 @@ const Home = () => {
     </ColorBlock>
     <ColorBlock color={"#10607a"}>
       <br/>
+      <br/>
       <FeaturedItem />
     </ColorBlock>
   </div>

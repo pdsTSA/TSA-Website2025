@@ -23,7 +23,7 @@ const FeaturedItem = () => {
             opacity: 0,
             scrollTrigger: {
                 trigger: content.current,
-                start: "top 60%"
+                start: "top 70%"
             }
         })
     }, {scope: content})

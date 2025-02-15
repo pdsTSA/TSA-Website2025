@@ -38,8 +38,8 @@ const Navbar = () => {
             </div>
             <ul className={`${styles.navLinks} ${menuOpen ? styles.active : ""}`}>
                 <li><a href="/menu">Menu</a></li>
-                <li><a href="/rewards">Rewards</a></li>
                 <li><a href="/catering">Catering</a></li>
+                <li><a href="/rewards">Rewards</a></li>
                 <li><a href="/about">About Us</a></li>
                 <li><a href="/reference">Reference Page</a></li>
                 <li><a href={signUpLink} className={styles.button}>{signUpText}</a></li>
