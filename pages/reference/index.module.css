@@ -66,3 +66,18 @@
 .button:hover a {
     color: #10607A;
 }
+
+@media (max-width: 704px) {
+    .subtitle {
+        margin-right: 50px;
+        max-width: 450px;
+    }
+}
+
+@media (max-width: 506px) {
+    .subtitle {
+        overflow-wrap: anywhere;
+        margin-right: 50px;
+        max-width: 325px;
+    }
+}
