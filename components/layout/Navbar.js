@@ -37,6 +37,7 @@ const Navbar = () => {
                 <Hamburger toggled={menuOpen} size={20} toggle={setMenuOpen}/>
             </div>
             <ul className={`${styles.navLinks} ${menuOpen ? styles.active : ""}`}>
+                <li><a href="/">Home</a></li>
                 <li><a href="/menu">Menu</a></li>
                 <li><a href="/catering">Catering</a></li>
                 <li><a href="/rewards">Rewards</a></li>
